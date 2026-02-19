@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escalator World - Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Escalator Quiz</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="how-it-works.html">How It Works</a></li>
+            <li><a href="images.html">Images</a></li>
+            <li><a href="3d-model.html">3D Model</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="types.html">Types</a></li>
+            <li><a href="safety.html">Safety</a></li>
+            <li><a href="famous.html">Famous Escalators</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="quiz">
+            <h2>Test Your Knowledge!</h2>
+            <form id="quizForm">
+                <p>1. Who patented the first escalator concept in 1859?</p>
+                <input type="radio" name="q1" value="Nathan Ames"> Nathan Ames<br>
+                <input type="radio" name="q1" value="Jesse Reno"> Jesse Reno<br>
+                <input type="radio" name="q1" value="Charles Seeberger"> Charles Seeberger<br>
+
+                <p>2. In what year was the first working prototype built at Coney Island?</p>
+                <input type="radio" name="q2" value="1895"> 1895<br>
+                <input type="radio" name="q2" value="1859"> 1859<br>
+                <input type="radio" name="q2" value="1899"> 1899<br>
+
+                <p>3. What is the typical incline angle of an escalator?</p>
+                <input type="radio" name="q3" value="30 degrees"> 30 degrees<br>
+                <input type="radio" name="q3" value="45 degrees"> 45 degrees<br>
+                <input type="radio" name="q3" value="90 degrees"> 90 degrees<br>
+
+                <p>4. Who coined the term "escalator"?</p>
+                <input type="radio" name="q4" value="Charles Seeberger"> Charles Seeberger<br>
+                <input type="radio" name="q4" value="Nathan Ames"> Nathan Ames<br>
+                <input type="radio" name="q4" value="Jesse Reno"> Jesse Reno<br>
+
+                <p>5. What powers the gears in an escalator?</p>
+                <input type="radio" name="q5" value="Electric motor"> Electric motor<br>
+                <input type="radio" name="q5" value="Steam"> Steam<br>
+                <input type="radio" name="q5" value="Hand crank"> Hand crank<br>
+
+                <p>6. What is the typical speed of an escalator?</p>
+                <input type="radio" name="q6" value="30-40 fpm"> 30-40 fpm<br>
+                <input type="radio" name="q6" value="100 mph"> 100 mph<br>
+                <input type="radio" name="q6" value="5 fpm"> 5 fpm<br>
+
+                <p>7. In what year was the first commercial escalator installed?</p>
+                <input type="radio" name="q7" value="1899"> 1899<br>
+                <input type="radio" name="q7" value="1892"> 1892<br>
+                <input type="radio" name="q7" value="1859"> 1859<br>
+
+                <p>8. What company produced the first commercial escalator?</p>
+                <input type="radio" name="q8" value="Otis Elevator Company"> Otis Elevator Company<br>
+                <input type="radio" name="q8" value="Schindler"> Schindler<br>
+                <input type="radio" name="q8" value="Kone"> Kone<br>
+
+                <p>9. Escalators are designed to handle how many passengers?</p>
+                <input type="radio" name="q9" value="Large numbers in short time"> Large numbers in short time<br>
+                <input type="radio" name="q9" value="Only 1 at a time"> Only 1 at a time<br>
+                <input type="radio" name="q9" value="None, they're decorative"> None, they're decorative<br>
+
+                <p>10. What structure houses the motor and chains?</p>
+                <input type="radio" name="q10" value="Truss"> Truss<br>
+                <input type="radio" name="q10" value="Elevator shaft"> Elevator shaft<br>
+                <input type="radio" name="q10" value="Conveyor belt"> Conveyor belt<br>
+
+                <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 Escalator World</p>
+    </footer>
+    <script src="quiz.js"></script>
+</body>
+</html>
